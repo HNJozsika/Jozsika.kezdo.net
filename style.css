@@ -1,0 +1,38 @@
+.MainPhone{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fbicon{
+    width: 50px;
+    position: absolute;
+    top :60px;
+    left: 150px;
+}
+.igicon{
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    left: 227px;
+}
+.yticon{
+    width: 60px;
+    position: absolute;
+    top: 60px;
+    left:295px ;
+}
+#gomb{
+    height: 70px;
+    width: 5px; 
+}
+nav{
+    background-color: black;
+    width: 200px;
+    height: 500px;
+    transform: translateX(-5rem);
+    transition: transform 350ms ease-in-out;
+}
+menu-active{
+    transform: translateX(2);
+}
